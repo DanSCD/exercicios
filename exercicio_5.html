@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+</head>
+<body>
+    <h1>Calcular a hora e o minuto para segundos</h1>
+    <div id="Calcular"></div>
+
+    <script>
+        let horas = Number(prompt("Digite as horas"));
+        let minutos = Number(prompt("Digite o Minuto"));
+        let segundos = Number(prompt("Digite os segundos"));
+        somaSegundos = (horas * 3600) + (minutos * 60) + segundos;
+    
+        document.getElementById("Calcular").innerHTML = "Hora:" + horas + "</br>Minuto: " + minutos + "</br>Segundos: " + segundos + "</br>Total em segundos: " + somaSegundos;
+
+
+    </script>
+</body>
+</html>
